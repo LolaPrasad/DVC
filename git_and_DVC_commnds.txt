@@ -1,0 +1,30 @@
+20  git init
+21  git add README.md
+22  git status
+23  git commit -m "first commit"
+24  git log
+25  git status
+26  git add test.py
+27  git commit -m "second commit"
+28  git log
+29  git checkout b6c39
+30  git branch
+31  git checkout d325e
+32  clear
+33  git branch
+34  git checkout <your branch name >
+35  conda create -p env python==3.8  -y
+36  source activate ./env
+37  clear
+38  history
+39 git remote add origin # ???
+
+## DVC command (check dvc documentation), dvc tutorial real python 
+1 dvc init
+2 dvc add data
+3 dvc add data/data.csv
+4 data checkout
+5 dvc remote add -d remote_storage path/to/your/dvc_remote # same as git remote add origin 
+6 dvc push
+7 dvc repro # this command for reproducibility
+8 dvc dag
